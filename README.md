@@ -118,4 +118,4 @@ Kafka Topic:
  br.com.coutinhocorp.transaction
   ```
 ![High level architecture.](images/topic.png "High level architecture.")
-## All calls to the endpoints are contained in the *apiRequests* file and can be imported via *Insomnia*, client for executing HTTP calls
+## All calls to the endpoints are contained in the *InsomniaCollection.json* file and can be imported via *Insomnia*, client for executing HTTP calls
