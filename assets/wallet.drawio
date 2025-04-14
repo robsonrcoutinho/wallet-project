@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.12">
+  <diagram name="Page-1" id="WrxUFAettOJf_gBQ9UuC">
+    <mxGraphModel dx="4536" dy="1407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-12" value="&lt;div&gt;createWallet&lt;/div&gt;&lt;div&gt;depositFunds&lt;/div&gt;&lt;div&gt;withDrawFunds&lt;/div&gt;&lt;div&gt;transferFunds&lt;/div&gt;&lt;div&gt;currentBalanceWallet&lt;/div&gt;&lt;div&gt;historyBalanceWalletByUser&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=right;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="370" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-11" value="CreateUser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="7gmTvAkFlS476h1Bf8uT-2" target="7gmTvAkFlS476h1Bf8uT-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="User Service" c4Type="Container" c4Technology="SpringBoot, Postgres" c4Description="Responsible to save new Users at database" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="7gmTvAkFlS476h1Bf8uT-2">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="-230" y="55" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="7gmTvAkFlS476h1Bf8uT-3" target="7gmTvAkFlS476h1Bf8uT-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="7gmTvAkFlS476h1Bf8uT-3" target="7gmTvAkFlS476h1Bf8uT-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-100" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-22" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Transactons Notifications&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7gmTvAkFlS476h1Bf8uT-21">
+          <mxGeometry x="-0.0898" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Wallet Service" c4Type="Container" c4Technology="SprintBoot, Kafka, Postgress" c4Description="Create new wallets and execute transactions" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="7gmTvAkFlS476h1Bf8uT-3">
+          <mxCell style="shape=hexagon;size=50;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;labelBackgroundColor=none;fillColor=#23A2D9;fontSize=12;fontColor=#ffffff;align=center;strokeColor=#0E7DAD;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;" vertex="1" parent="1">
+            <mxGeometry x="-190" y="345" width="200" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="7gmTvAkFlS476h1Bf8uT-5" target="7gmTvAkFlS476h1Bf8uT-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-698" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="7gmTvAkFlS476h1Bf8uT-5" target="7gmTvAkFlS476h1Bf8uT-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-698" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-5" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.user_feedback_02;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="270" width="43.199999999999996" height="50.099999999999994" as="geometry" />
+        </mxCell>
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-9" value="API REST" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-7" value="API REST" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-14" value="" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="7gmTvAkFlS476h1Bf8uT-20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.icon-icons.com/2248/PNG/512/apache_kafka_icon_138937.png;" vertex="1" parent="1">
+          <mxGeometry x="350" y="560" width="130" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
